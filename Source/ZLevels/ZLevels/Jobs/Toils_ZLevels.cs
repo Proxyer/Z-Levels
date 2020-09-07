@@ -204,7 +204,7 @@ namespace ZLevels
                 //}
 
             }
-            yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.OnCell);
+            yield return Toils_Goto.GotoCell(TargetIndex.A, PathEndMode.OnCell);
         }
 
     }
